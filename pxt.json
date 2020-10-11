@@ -1,5 +1,5 @@
 {
-    "name": "pxt-BitwiseLogicx",
+    "name": "pxt-BitwiseLogic",
     "description": "",
     "dependencies": {
         "core": "*",
