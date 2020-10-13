@@ -7,6 +7,7 @@ You might need to set some bits and mask other bits. These operations can be don
 So try using bitwise operators instead. Each of the operators maps directly to a JavaScript operator, with the same symbol.
 
 ## Operators
-Several "reporter" blocks are provided - most have 2 arguments (parameters). The only one that doesn't is the **bitwise not**.
+Two "reporter" blocks are provided - one has 2 arguments (parameters) and a drop-down to select the operator. The only one that doesn't is the **bitwise not**.
+![blocks](./Screenshot 2020-10-13 at 10.11.16.png)
 
 
