@@ -10,11 +10,11 @@ So try using bitwise operators instead. Each of the operators maps directly to a
 Two "reporter" blocks are provided - one has 2 parameters and a drop-down to select the operator. 
 
 The operator can be (a and b are the two parameters):
-- **&**  a and b
-- **|** a or b
-- **^** a xor b
-- **<<** left shift a by b bits 
-- **>>** right shift a by b bits
+- **&**   a and b
+- **|**   a or b
+- **^**   a xor b
+- **<<**  left shift a by b bits 
+- **>>**  right shift a by b bits
 - **>>>** right shift a by b bits with 0 fill 
 
 The second bock is the **bitwise not** which has just one parameter.
