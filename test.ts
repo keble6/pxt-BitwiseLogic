@@ -1,4 +1,15 @@
-/* tests for Bitwise Logic */
+/* 
+tests for Bitwise Logic.
+Each operator is checked
+*/
+/* 
+run this code, and either:
+
+a) connect a webUSB terminal to the connected microbit, or 
+b) use the MakeCode simulator's console
+
+then check that all tests result in a P on the terminal/console
+*/
 function checkAnd (stra: string, strb: string) {
     let b = parseInt(stra,16)
     let c = parseInt(strb,16) 
