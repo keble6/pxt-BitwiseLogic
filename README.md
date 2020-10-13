@@ -8,6 +8,7 @@ So try using bitwise operators instead. Each of the operators maps directly to a
 
 ## Operators
 Two "reporter" blocks are provided - one has 2 arguments (parameters) and a drop-down to select the operator. The only one that doesn't is the **bitwise not**.
+
 ![blocks](./Screenshot 2020-10-13 at 10.11.16.png)
 
 
