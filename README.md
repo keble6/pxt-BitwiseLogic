@@ -1,4 +1,4 @@
-#Bitwise Logic operators
+##Bitwise Logic operators
 
 These are useful when you are using an external device which has, for example, 8-bit status and control bytes.
 
