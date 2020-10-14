@@ -29,3 +29,5 @@ In JavaScript this is:
 
 `let controlreg = BitwiseLogic.bitwise2arg(DS3231.control(), operator.or, 1)`
 
+## Supported targets
+* PXT/microbit
