@@ -22,6 +22,17 @@ The second bock is the **bitwise not** which has just one parameter.
 ![blocks](https://github.com/keble6/pxt-BitwiseLogic/blob/master/Screenshot%202020-10-13%20at%2010.11.16.png)
 
 ## Example useage
+
+```package
+core
+bitwise logic=https://github.com/keble6/pxt-BitwiseLogic/
+```
+
+```sig
+basic.forever(() => {
+})
+```
+
 Set bit 0 of a DS3231 control register (to enable an alarm interrupt):
 ![example](https://github.com/keble6/pxt-BitwiseLogic/blob/master/example.png)
 
