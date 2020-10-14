@@ -26,15 +26,11 @@ The second bock is the **bitwise not** which has just one parameter.
 ```package
 core
 radio
-pxt-BitwiseLogic=https://github.com/keble6/pxt-BitwiseLogic/
-```
-```blocks
-let controlreg = BitwiseLogic.bitwise2arg(DS3231.control(), operator.or, 1)
+BitwiseLogic=https://github.com/keble6/pxt-BitwiseLogic/
 ```
 
-```sig
-basic.forever(() => {
-})
+```block
+BitwiseLogic.bitwise2arg(DS3231.control(), operator.or, 1)
 ```
 
 Set bit 0 of a DS3231 control register (to enable an alarm interrupt):
