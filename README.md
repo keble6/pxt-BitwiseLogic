@@ -25,7 +25,11 @@ The second bock is the **bitwise not** which has just one parameter.
 
 ```package
 core
-bitwise logic=https://github.com/keble6/pxt-BitwiseLogic/
+radio
+pxt-BitwiseLogic=https://github.com/keble6/pxt-BitwiseLogic/
+```
+```blocks
+let controlreg = BitwiseLogic.bitwise2arg(DS3231.control(), operator.or, 1)
 ```
 
 ```sig
