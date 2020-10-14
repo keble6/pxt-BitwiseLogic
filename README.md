@@ -23,6 +23,11 @@ The second bock is the **bitwise not** which has just one parameter.
 
 ## Example useage
 
+```sig
+basic.forever(() => {
+})
+```
+
 ```package
 core
 radio
