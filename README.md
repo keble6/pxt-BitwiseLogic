@@ -23,23 +23,11 @@ The second bock is the **bitwise not** which has just one parameter.
 
 ## Example useage
 
-```sig
-basic.forever(() => {
-})
-```
-
-```package
-core
-radio
-BitwiseLogic=https://github.com/keble6/pxt-BitwiseLogic/
-```
-
-```block
-BitwiseLogic.bitwise2arg(DS3231.control(), operator.or, 1)
-```
-
 Set bit 0 of a DS3231 control register (to enable an alarm interrupt):
-![example](https://github.com/keble6/pxt-BitwiseLogic/blob/master/example.png)
+
+```blocks
+let controlreg = BitwiseLogic.bitwise2arg(DS3231.control(), operator.or, 1)
+```
 
 In JavaScript this is:
 
